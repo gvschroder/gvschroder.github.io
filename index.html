@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guilherme Schröder | Data Engineering & Software</title>
+  <meta name="description" content="Portfólio profissional de Guilherme Schröder — Engenharia de Dados, Arquitetura de Software, Python e SQL." />
+  <meta name="keywords" content="Data Engineering, Python, SQL, Software Architecture, Databricks, BigQuery, AWS, Lakehouse" />
+  <meta name="author" content="Guilherme Schröder" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guilherme Schröder | Data Engineering & Software" />
+  <meta property="og:description" content="Engenharia de Dados, Arquitetura de Software, Python e SQL." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://schroder.dev" />
+  <!-- <meta property="og:image" content="assets/og-image.png" /> -->
+
+  <!-- <link rel="icon" href="assets/favicon.ico" /> -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- AOS (scroll animations) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <nav class="nav container">
+      <a class="nav__logo" href="#top">GS</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#experiencia" class="nav__link">Experiência</a></li>
+        <!-- <li><a href="#projetos" class="nav__link">Projetos</a></li> -->
+        <li><a href="#formacao" class="nav__link">Formação</a></li>
+        <li><a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <!--a class="btn btn--ghost" href="[[URL_DO_SEU_CV_PDF]]" target="_blank" rel="noreferrer">
+          Baixar CV
+        </a-->
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container section">
+      <div class="hero__content" data-aos="fade-up">
+        <p class="hero__eyebrow">Olá, eu sou</p>
+        <h1 class="hero__title">Guilherme Schröder</h1>
+        <p class="hero__subtitle">
+          Head of Data | Data Engineering Specialist | Software Developer
+        </p>
+        <p class="hero__text">
+          Head of Data e especialista em Engenharia de Dados, com experiência na construção 
+          de ambientes lakehouse, pipelines escaláveis e integrações entre sistemas. Tenho base 
+          sólida em desenvolvimento de software e aplico padrões de arquitetura, automação, 
+          modelagem e governança para entregar soluções robustas, seguras e alinhadas às 
+          melhores práticas.
+        </p>
+        <p class="hero__text">
+          Atuo com visão estratégica de negócio, conectando objetivos corporativos ao uso eficiente 
+          dos dados. Lidero o desenvolvimento de plataformas e pipelines com foco em confiabilidade, 
+          eficiência operacional e otimização de custos, apoiando decisões e impulsionando iniciativas 
+          que geram valor de forma sustentável.
+        </p>
+
+        <div class="hero__cta">
+          <!--a class="btn" href="#projetos">Ver projetos</a-->
+          <a class="btn" href="https://www.linkedin.com/in/guilherme-schroder/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a class="btn" href="https://github.com/gvschroder" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__num">+<span id="anosExperiencia"></span> anos</div>
+            <div class="stat__label">Engenharia de Dados<br/>Desenvolvimento de Software</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">Python · SQL · Spark</div>
+            <div class="stat__label">Core stack</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">AWS · GCP · Databricks</div>
+            <div class="stat__label">Cloud &amp; Lakehouse</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card" data-aos="fade-left">
+        <div class="hero__avatar">
+          <img src="assets/profile.png" alt="Foto de Guilherme Schröder" />
+        </div>
+        <div class="hero__card-body">
+          <h3>Resumo rápido</h3>
+          <ul class="checklist">
+            <li>Liderança Técnica &amp; Estratégia de Dados</li>
+            <li>Arquitetura de Software &amp; Integrações</li>
+            <li>Engenharia de Dados &amp; Lakehouse</li>
+            <li>Pipelines Escaláveis &amp; Automação</li>
+            <li>Governança, Modelagem &amp; Qualidade</li>
+            <li>Cloud Monitoramento &amp; Observabilidade</li>
+            <li>Eficiência Operacional &amp; Otimização de Custos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section">
+      <div class="section__head" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Stack principal e competências técnicas que uso no dia a dia.</p>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skills__card" data-aos="fade-up">
+          <h3>Liderança & Estratégia</h3>
+          <div class="chips">
+            <span class="chip">Liderança técnica de alto desempenho</span>
+            <span class="chip">Gestão de times multidisciplinares</span>
+            <span class="chip">Tomada de decisão orientada a dados</span>
+            <span class="chip">Priorização & roadmap estratégico</span>
+            <span class="chip">Gestão de stakeholders</span>
+            <span class="chip">Comunicação executiva</span>
+            <span class="chip">Mentoria & desenvolvimento de talentos</span>
+          </div>
+        </div>
+
+        <div class="skills__card" data-aos="fade-up" data-aos-delay="80">
+          <h3>Engenharia de Dados & Plataforma</h3>
+          <div class="chips">
+            <span class="chip">Databricks · Delta Lake · Lakehouse</span>
+            <span class="chip">BigQuery · GCS · Data Lake</span>
+            <span class="chip">ETL / ELT · Pipelines escaláveis</span>
+            <span class="chip">CDC · Streaming</span>
+            <span class="chip">Modelagem de dados</span>
+            <span class="chip">Governança & qualidade</span>
+            <span class="chip">Catálogo de dados & linhagem</span>
+          </div>
+        </div>
+
+        <div class="skills__card" data-aos="fade-up" data-aos-delay="160">
+          <h3>Arquitetura & Engenharia de Software</h3>
+          <div class="chips">
+            <span class="chip">Arquitetura distribuída</span>
+            <span class="chip">APIs REST</span>
+            <span class="chip">Microserviços</span>
+            <span class="chip">Clean Architecture</span>
+            <span class="chip">Padrões de projeto</span>
+            <span class="chip">CI/CD · Automação</span>
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Java</span>
+            <span class="chip">Linux</span>
+          </div>
+        </div>
+
+        <div class="skills__card" data-aos="fade-up" data-aos-delay="240">
+          <h3>Cloud & Operações</h3>
+          <div class="chips">
+            <span class="chip">AWS</span>
+            <span class="chip">GCP</span>
+            <span class="chip">IAM & segurança</span>
+            <span class="chip">Arquitetura resiliente</span>
+            <span class="chip">Confiabilidade & performance</span>
+            <span class="chip">Otimização de custos</span>
+            <span class="chip">Monitoramento & observabilidade</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experiencia" class="container section">
+      <div class="section__head" data-aos="fade-up">
+        <h2>Experiência</h2>
+        <p>Minha trajetória, destaques e resultados.</p>
+      </div>
+
+      <div class="timeline">
+        
+        <article class="timeline__item" data-aos="fade-up">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Data Engineering &amp; Science Manager</h3>
+            <span class="timeline__meta">ALLOS · abr/2024 — Presente</span>
+            <ul>
+              <li>Liderança estratégica do Chapter de Engenharia de Dados (~22 profissionais) e definição de papéis, padrões e boas práticas.</li>
+              <li>Evolução da arquitetura do Data Lake (GCP, Databricks, Airflow, Medalhão) com foco em escalabilidade, governança e confiabilidade.</li>
+              <li>Gestão orçamentária e otimização de custos, incluindo negociações com fornecedores e revisão da infraestrutura analítica.</li>
+              <li>Definição e execução do roadmap da plataforma de dados, acelerando entregas de negócio e integrações corporativas.</li>
+              <li>Liderança do CoE de Dados, promovendo capacitação, padronização e cultura data-driven.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline__item" data-aos="fade-up" data-aos-delay="80">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Head of Data</h3>
+            <span class="timeline__meta">TAG IMF · nov/2023 — mar/2024</span>
+            <ul>
+              <li>Liderança dos times de Engenharia e Análise de Dados (11 profissionais), estruturando estratégia e prioridades.</li>
+              <li>Responsável pelo planejamento estratégico anual e revisão orçamentária de três anos.</li>
+              <li>Acompanhamento individual, rituais de performance e desenvolvimento da equipe.</li>
+              <li>Atuação em incidentes e demandas críticas, garantindo alinhamento entre áreas e continuidade operacional.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item" data-aos="fade-up" data-aos-delay="160">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Head of Data Architecture/Platform · Principal Data Engineer</h3>
+            <span class="timeline__meta">out/2022 — nov/2023</span>
+            <ul>
+              <li>Liderança da equipe de engenharia e definição da arquitetura corporativa do Data Lake (Lambda, Medalhão).</li>
+              <li>Estruturação da estratégia de dados alinhada aos objetivos da organização.</li>
+              <li>Implementação de plano de otimização que gerou economias significativas e sustentáveis.</li>
+              <li>Desenvolvimento de plataforma para novos produtos data-driven, ampliando capacidades de negócio.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item" data-aos="fade-up" data-aos-delay="240">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>Data Engineering Specialist</h3>
+            <span class="timeline__meta">MadeiraMadeira · jun/2021 — out/2022</span>
+            <ul>
+              <li>Redução de 50% nos custos AWS (~US$ 20 mil/mês) por meio de análise e reestruturação da infraestrutura.</li>
+              <li>Reestruturação completa da arquitetura do Data Lake e reconstrução do pipeline de ingestão para o Redshift.</li>
+              <li>Implementação do ambiente Airflow (ECS/EMR/Databricks) e configuração do Databricks do zero.</li>
+              <li>Criação de IAM Roles personalizadas e padrões de desenvolvimento (git-flow) para o time.</li>
+              <li>Capacitação da equipe em Python, arquitetura de software e boas práticas de engenharia de dados.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <!--section id="projetos" class="container section">
+      <div class="section__head" data-aos="fade-up">
+        <h2>Projetos em destaque</h2>
+        <p>Algumas iniciativas representativas do meu trabalho.</p>
+      </div>
+
+      <div class="projects__filters" data-aos="fade-up" data-aos-delay="50">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="sql">SQL</button>
+        <button class="filter-btn" data-filter="dataeng">Data Eng</button>
+        <button class="filter-btn" data-filter="arch">Arquitetura</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+      </div>
+
+      <div class="projects__grid">
+        <article class="project-card" data-tags="dataeng,python,cloud" data-aos="fade-up">
+          <div class="project-card__top">
+            <h3>Pipeline CDC com Lakehouse</h3>
+            <div class="project-card__tags">
+              <span>Data Eng</span><span>Python</span><span>Cloud</span>
+            </div>
+          </div>
+          <p>
+            Implementação de ingestão CDC e transformação incremental em arquitetura lakehouse,
+            com foco em confiabilidade e redução de latência analítica.
+          </p>
+          <div class="project-card__stack">
+            Databricks · Delta Lake · Python · Kafka/Fivetran · GCS
+          </div>
+          <div class="project-card__links">
+            <a href="[[LINK_DO_PROJETO]]" target="_blank" rel="noreferrer">Detalhes</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="sql,dataeng,cloud" data-aos="fade-up" data-aos-delay="80">
+          <div class="project-card__top">
+            <h3>Otimização de custos BigQuery/GCS</h3>
+            <div class="project-card__tags">
+              <span>SQL</span><span>Data Eng</span><span>Cloud</span>
+            </div>
+          </div>
+          <p>
+            Análises de uso, retenção e modelagem de custos em camadas analíticas,
+            com estratégias de expurgo/TTL e tuning de consultas.
+          </p>
+          <div class="project-card__stack">
+            BigQuery · GCS · SQL · Observabilidade
+          </div>
+          <div class="project-card__links">
+            <a href="[[LINK_DO_PROJETO]]" target="_blank" rel="noreferrer">Detalhes</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="python,arch" data-aos="fade-up" data-aos-delay="160">
+          <div class="project-card__top">
+            <h3>APIs Python para dados</h3>
+            <div class="project-card__tags">
+              <span>Python</span><span>Arquitetura</span>
+            </div>
+          </div>
+          <p>
+            Microserviços para ingestão e exposição de dados, com autenticação,
+            observabilidade e boas práticas de Clean Code.
+          </p>
+          <div class="project-card__stack">
+            Python · FastAPI/Flask · Docker · CI/CD
+          </div>
+          <div class="project-card__links">
+            <a href="[[LINK_DO_PROJETO]]" target="_blank" rel="noreferrer">Detalhes</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tags="arch,dataeng" data-aos="fade-up" data-aos-delay="240">
+          <div class="project-card__top">
+            <h3>Arquitetura Data Lake corporativo</h3>
+            <div class="project-card__tags">
+              <span>Arquitetura</span><span>Data Eng</span>
+            </div>
+          </div>
+          <p>
+            Definição de padrões de diretórios, dados sensíveis, camadas de consumo
+            e contratos de dados para múltiplas tribos/squads.
+          </p>
+          <div class="project-card__stack">
+            GCS/S3 · Databricks · Governança · Catálogo
+          </div>
+          <div class="project-card__links">
+            <a href="[[LINK_DO_PROJETO]]" target="_blank" rel="noreferrer">Detalhes</a>
+          </div>
+        </article>
+      </div>
+    </section-->
+
+    <!-- EDUCATION -->
+    <section id="formacao" class="container section">
+      <div class="section__head" data-aos="fade-up">
+        <h2>Formação</h2>
+        <p>Base acadêmica e especializações.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="info-card" data-aos="fade-up">
+          <h3>Bacharel em Sistemas de Informação</h3>
+          <p class="muted">Faculdades Integradas de Itararé · 2017</p>
+        </div>
+        <div class="info-card" data-aos="fade-up" data-aos-delay="80">
+          <h3>DS4A / Latin America 2020: Graduated with Honors</h3>
+          <p class="muted">Correlation One · 2020</p>
+        </div>
+        <div class="info-card" data-aos="fade-up" data-aos-delay=160">
+          <h3>Bootcamp Engenharia de Dados</h3>
+          <p class="muted">How Bootcamps · 2020</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CONTACT -->
+    <section id="contato" class="container section">
+      <div class="section__head" data-aos="fade-up">
+        <h2>Contato</h2>
+        <p>Quer falar sobre dados, arquitetura ou projetos? Me chama.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__card" data-aos="fade-up">
+          <h3>Vamos conversar</h3>
+          <p class="muted">Respondo mais rápido pelo LinkedIn.</p>
+
+          <div class="contact__links">
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/guilherme-schroder/" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a class="btn btn--ghost" href="mailto:gvschroder@gmail.com">
+              <i class="fa-solid fa-envelope"></i> E-mail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer container">
+      <p>Guilherme Schröder · <span id="year"></span> </p>
+      <a href="#top" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </footer>
+  </main>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
